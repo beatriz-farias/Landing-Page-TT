@@ -34,12 +34,12 @@ a {
     display: flex;
     flex-direction: row;
     padding-right: 5px;
-    font-size: 5vh;
+    font-size: 30px;
     align-items: center;
 }
 
 .logo.img {
-    height: 5vh;
+    height: 30px;
 }
 
 aside {
@@ -55,10 +55,25 @@ main {
     justify-content: space-between;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .menu-item {
-    font-size: 1.25em;
+    font-size: 15px;
     color: black;
-    padding: 1em;
+    padding: 1vw;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
 }
 
 h2.main-text {
@@ -77,6 +92,9 @@ h2.main-text {
 .txt {
     padding: 0.5rem 0rem;
     margin: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .cad {
@@ -109,6 +127,7 @@ h2.main-text {
 .sec2.div {
     display: flex;
     align-self: center;
+    padding-right: 10px;
 }
 
 .sec3 {
@@ -136,6 +155,10 @@ h2.main-text {
     display: flex;
     flex-direction: row;
     margin: 5px;
+}
+
+li {
+    list-style: inside;
 }
 
 .produto {
