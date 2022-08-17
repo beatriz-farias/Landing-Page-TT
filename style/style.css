@@ -1,0 +1,150 @@
+:root {
+    --bg-light-green: #DAFEAE;
+    --darker-green: hsl(97, 42%, 44%, 50%);
+    --medium-green: hsl(97, 42%, 44%);
+    --default-purple: #E02DEF;
+
+}
+
+* {
+    padding: 0em;
+    margin: 0em;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    text-decoration-color: black;
+}
+
+a {
+    color: black;
+}
+
+.header {
+    padding: 1em;
+    background-color: var(--medium-green);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+    font-size: 5vh;
+    align-items: center;
+}
+
+.logo.img {
+    height: 5vh;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: flex-start;
+    scroll-padding-block-end: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-size: 1.25em;
+    color: black;
+    padding: 1em;
+}
+
+h2.main-text {
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+}
+
+.main-text {
+    margin: 1.5rem 1.5rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+}
+
+.txt {
+    padding: 0.5rem 0rem;
+    margin: 5px;
+}
+
+.cad {
+    margin: 10px;
+    background-color: var(--default-purple);
+    height: 2rem;
+    width: 15rem;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    border-radius: 3rem;
+    justify-content: center;
+}
+
+.sec {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.sec1 {
+    background-color: var(--bg-light-green);
+}
+
+.sec2 {
+    background-color: var(--medium-green);
+}
+
+.sec2.div {
+    display: flex;
+    align-self: center;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.img {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ctg.img {
+    height: 125px;
+    width: 125px;
+    padding: 15px 15px 0 0;
+    margin: 10px;
+    align-content: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.produto {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    background-color: var(--bg-light-green);
+}
